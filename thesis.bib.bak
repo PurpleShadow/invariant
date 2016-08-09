@@ -1,0 +1,299 @@
+% Encoding: UTF-8
+
+@InProceedings{brown2007complexity,
+  author =       {Brown, Christopher W and Davenport, James H},
+  title =        {The complexity of quantifier elimination and cylindrical algebraic decomposition},
+  booktitle =    {Proceedings of the 2007 international symposium on Symbolic and algebraic computation},
+  year =         {2007},
+  pages =        {54--60},
+  organization = {ACM}
+}
+
+@Article{clarke2003abstraction,
+  author =    {Clarke, Edmund and Fehnker, Ansgar and Han, Zhi and Krogh, Bruce and Ouaknine, Jo{\"e}l and Stursberg, Olaf and Theobald, Michael},
+  title =     {Abstraction and counterexample-guided refinement in model checking of hybrid systems},
+  journal =   {International Journal of Foundations of Computer Science},
+  year =      {2003},
+  volume =    {14},
+  number =    {04},
+  pages =     {583--604},
+  language =  {english},
+  publisher = {World Scientific}
+}
+
+@Book{cox1992ideals,
+  title =     {Ideals, varieties, and algorithms},
+  publisher = {Springer},
+  year =      {1992},
+  author =    {Cox, David and Little, John and O'shea, Donal},
+  volume =    {3},
+  language =  {english}
+}
+
+@InCollection{ghorbal2014characterizing,
+  author =    {Ghorbal, Khalil and Platzer, Andr{\'e}},
+  title =     {Characterizing algebraic invariants by differential radical invariants},
+  booktitle = {Tools and Algorithms for the Construction and Analysis of Systems},
+  publisher = {Springer},
+  year =      {2014},
+  pages =     {279--294},
+  language =  {english}
+}
+
+@Article{giese2006survey,
+  author =    {Giese, Holger and Henkler, Stefan},
+  title =     {A survey of approaches for the visual model-driven development of next generation software-intensive systems},
+  journal =   {Journal of Visual Languages \& Computing},
+  year =      {2006},
+  volume =    {17},
+  number =    {6},
+  pages =     {528--550},
+  language =  {english},
+  publisher = {Elsevier}
+}
+
+@InProceedings{gulwani2008constraint,
+  author =       {Gulwani, Sumit and Tiwari, Ashish},
+  title =        {Constraint-based approach for analysis of hybrid systems},
+  booktitle =    {Computer Aided Verification},
+  year =         {2008},
+  pages =        {190--203},
+  organization = {Springer},
+  language =     {english}
+}
+
+@InProceedings{kong2013exponential,
+  author =       {Kong, Hui and He, Fei and Song, Xiaoyu and Hung, William NN and Gu, Ming},
+  title =        {Exponential-condition-based barrier certificate generation for safety verification of hybrid systems},
+  booktitle =    {Computer Aided Verification},
+  year =         {2013},
+  pages =        {242--257},
+  organization = {Springer},
+  language =     {english}
+}
+
+@Article{kong2014new,
+  author =    {Kong, Hui and Song, Xiaoyu and Han, Dong and Gu, Ming and Sun, Jiaguang},
+  title =     {A new barrier certificate for safety verification of hybrid systems},
+  journal =   {The Computer Journal},
+  year =      {2014},
+  volume =    {57},
+  number =    {7},
+  pages =     {1033--1045},
+  language =  {english},
+  publisher = {Br Computer Soc}
+}
+
+@Article{kong2016invariant,
+  author =  {Kong, Hui and Bogomolov, Sergiy and Schilling, Christian and Jiang, Yu and Henzinger, Thomas A},
+  title =   {Invariant Clusters for Hybrid Systems},
+  journal = {arXiv preprint arXiv:1605.01450},
+  year =    {2016}
+}
+
+@InCollection{liu2010calculus,
+  author =    {Liu, Jiang and Lv, Jidong and Quan, Zhao and Zhan, Naijun and Zhao, Hengjun and Zhou, Chaochen and Zou, Liang},
+  title =     {A calculus for hybrid CSP},
+  booktitle = {Programming Languages and Systems},
+  publisher = {Springer},
+  year =      {2010},
+  pages =     {1--15},
+  language =  {english}
+}
+
+@InProceedings{liu2011computing,
+  author =       {Liu, Jiang and Zhan, Naijun and Zhao, Hengjun},
+  title =        {Computing semi-algebraic invariants for polynomial dynamical systems},
+  booktitle =    {Proceedings of the ninth ACM international conference on Embedded software},
+  year =         {2011},
+  pages =        {97--106},
+  organization = {ACM},
+  language =     {english}
+}
+
+@Book{michiels1998unifying,
+  title =     {A unifying approach for studying the behaviour and control of perturbations in variable structure systems},
+  publisher = {Katholieke Universiteit Leuven. Departement Computerwetenschappen},
+  year =      {1998},
+  author =    {Michiels, Wim and Roose, Dirk},
+  language =  {english}
+}
+
+@InProceedings{platzer2008computing,
+  author =       {Platzer, Andr{\'e} and Clarke, Edmund M},
+  title =        {Computing differential invariants of hybrid systems as fixedpoints},
+  booktitle =    {Computer Aided Verification},
+  year =         {2008},
+  pages =        {176--189},
+  organization = {Springer},
+  language =     {english}
+}
+
+@Article{platzer2008differential,
+  author =   {Platzer, Andr{\'e}},
+  title =    {Differential Dynamic Logic for Hybrid Systems},
+  journal =  {Journal of Automated Reasoning},
+  year =     {2008},
+  volume =   {41},
+  number =   {2},
+  pages =    {143--189},
+  abstract = {Hybrid systems are models for complex physical systems and are defined as dynamical systems with interacting discrete transitions and continuous evolutions along differential equations. With the goal of developing a theoretical and practical foundation for deductive verification of hybrid systems, we introduce a dynamic logic for hybrid programs, which is a program notation for hybrid systems. As a verification technique that is suitable for automation, we introduce a free variable proof calculus with a novel combination of real-valued free variables and Skolemisation for lifting quantifier elimination for real arithmetic to dynamic logic. The calculus is compositional, i.e., it reduces properties of hybrid programs to properties of their parts. Our main result proves that this calculus axiomatises the transition behaviour of hybrid systems completely relative to differential equations. In a case study with cooperating traffic agents of the European Train Control System, we further show that our calculus is well-suited for verifying realistic hybrid systems with parametric system dynamics.},
+  doi =      {10.1007/s10817-008-9103-8},
+  issn =     {1573-0670},
+  language = {english}
+}
+
+@InBook{platzer2009formal,
+  pages =     {547--562},
+  title =     {Formal Verification of Curved Flight Collision Avoidance Maneuvers: A Case Study},
+  publisher = {Springer Berlin Heidelberg},
+  year =      {2009},
+  author =    {Platzer, Andr{\'e} and Clarke, Edmund M.},
+  editor =    {Cavalcanti, Ana and Dams, Dennis R.},
+  address =   {Berlin, Heidelberg},
+  booktitle = {FM 2009: Formal Methods: Second World Congress, Eindhoven, The Netherlands, November 2-6, 2009. Proceedings},
+  doi =       {10.1007/978-3-642-05089-3_35},
+  isbn =      {978-3-642-05089-3},
+  language =  {english}
+}
+
+@InProceedings{platzer2012logics,
+  author =       {Platzer, Andr{\'e}},
+  title =        {Logics of dynamical systems},
+  booktitle =    {Proceedings of the 2012 27th Annual IEEE/ACM Symposium on Logic in Computer Science},
+  year =         {2012},
+  pages =        {13--24},
+  organization = {IEEE Computer Society},
+  language =     {english}
+}
+
+@InCollection{prajna2004safety,
+  author =    {Prajna, Stephen and Jadbabaie, Ali},
+  title =     {Safety verification of hybrid systems using barrier certificates},
+  booktitle = {Hybrid Systems: Computation and Control},
+  publisher = {Springer},
+  year =      {2004},
+  pages =     {477--492},
+  language =  {english}
+}
+
+@InCollection{rodriguez2005generating,
+  author =    {Rodr{\'\i}guez-Carbonell, Enric and Tiwari, Ashish},
+  title =     {Generating polynomial invariants for hybrid systems},
+  booktitle = {Hybrid Systems: Computation and Control},
+  publisher = {Springer},
+  year =      {2005},
+  pages =     {590--605},
+  language =  {english}
+}
+
+@InCollection{sankaranarayanan2004constructing,
+  author =    {Sankaranarayanan, Sriram and Sipma, Henny B and Manna, Zohar},
+  title =     {Constructing invariants for hybrid systems},
+  booktitle = {Hybrid Systems: Computation and Control},
+  publisher = {Springer},
+  year =      {2004},
+  pages =     {539--554},
+  language =  {english}
+}
+
+@InProceedings{sankaranarayanan2010automatic,
+  author =       {Sankaranarayanan, Sriram},
+  title =        {Automatic invariant generation for hybrid systems using ideal fixed points},
+  booktitle =    {Proceedings of the 13th ACM international conference on Hybrid systems: computation and control},
+  year =         {2010},
+  pages =        {221--230},
+  organization = {ACM},
+  language =     {english}
+}
+
+@InProceedings{sloth2012compositional,
+  author =       {Sloth, Christoffer and Pappas, George J and Wisniewski, Rafael},
+  title =        {Compositional safety analysis using barrier certificates},
+  booktitle =    {Proceedings of the 15th ACM international conference on Hybrid Systems: Computation and Control},
+  year =         {2012},
+  pages =        {15--24},
+  organization = {ACM},
+  language =     {english}
+}
+
+@InProceedings{sloth2012existence,
+  author =       {Sloth, Christoffer and Wisniewski, Rafael and Pappas, George J},
+  title =        {On the existence of compositional barrier certificates},
+  booktitle =    {Decision and Control (CDC), 2012 IEEE 51st Annual Conference on},
+  year =         {2012},
+  pages =        {4580--4585},
+  organization = {IEEE}
+}
+
+@Article{socias1992length,
+  author =   {Socias, Guillermo Moreno},
+  title =    {Length of Polynomial Ascending Chains and Primitive Recursiveness.},
+  journal =  {Mathematica Scandinavica},
+  year =     {1992},
+  volume =   {71},
+  pages =    {181--205},
+  language = {english}
+}
+
+@Book{tarski1951decision,
+  title =     {A decision method for elementary algebra and geometry},
+  publisher = {Rand Corporation},
+  year =      {1951},
+  author =    {Tarski, Alfred},
+  language =  {english}
+}
+
+@InBook{tenenbaum1963ordinary,
+  chapter =   {9},
+  pages =     {562--563},
+  title =     {Ordinary differential equations: An elementary textbook for students of mathematics, engineering, and the sciences},
+  publisher = {Courier Corporation},
+  year =      {1963},
+  author =    {Tenenbaum, Morris and Pollard, Harry},
+  language =  {english}
+}
+
+	
+@article{test-zh,
+	author = {作者},
+	title = {标题},
+	type = {J},
+	journal = {期刊},
+	date = {2014-04-01},
+	language = {chinese},
+}
+
+@Article{weispfenning1992comprehensive,
+  author =    {Weispfenning, Volker},
+  title =     {Comprehensive gr{\"o}bner bases},
+  journal =   {Journal of Symbolic Computation},
+  year =      {1992},
+  volume =    {14},
+  number =    {1},
+  pages =     {1--29},
+  language =  {english},
+  publisher = {Elsevier}
+}
+
+@Article{xia2007discoverer,
+  author =    {Xia, Bican},
+  title =     {DISCOVERER: a tool for solving semi-algebraic systems},
+  journal =   {ACM Communications in Computer Algebra},
+  year =      {2007},
+  volume =    {41},
+  number =    {3},
+  pages =     {102--103},
+  language =  {english},
+  publisher = {ACM}
+}
+
+@InProceedings{zou2013verifying,
+  author =       {Zou, Liang and Zhan, Naijun and Wang, Shuling and Fr{\"a}nzle, Martin and Qin, Shengchao},
+  title =        {Verifying simulink diagrams via a hybrid hoare logic prover},
+  booktitle =    {Proceedings of the Eleventh ACM International Conference on Embedded Software},
+  year =         {2013},
+  pages =        {9},
+  organization = {IEEE Press}
+}
+

@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+
+\bibitem{brown2007complexity}
+Christopher~W Brown and James~H Davenport.
+\newblock The complexity of quantifier elimination and cylindrical algebraic
+  decomposition.
+\newblock In {\em Proceedings of the 2007 international symposium on Symbolic
+  and algebraic computation}, pages 54--60. ACM, 2007.
+
+\bibitem{clarke2003abstraction}
+Edmund Clarke, Ansgar Fehnker, Zhi Han, Bruce Krogh, Jo{\"e}l Ouaknine, Olaf
+  Stursberg, and Michael Theobald.
+\newblock Abstraction and counterexample-guided refinement in model checking of
+  hybrid systems.
+\newblock {\em International Journal of Foundations of Computer Science},
+  14(04):583--604, 2003.
+
+\bibitem{cox1992ideals}
+David Cox, John Little, and Donal O'shea.
+\newblock {\em Ideals, varieties, and algorithms}, volume~3.
+\newblock Springer, 1992.
+
+\bibitem{figueira2011ackermannian}
+Diego Figueira, Santiago Figueira, Sylvain Schmitz, and Philippe Schnoebelen.
+\newblock Ackermannian and primitive-recursive bounds with dickson's lemma.
+\newblock In {\em Logic in Computer Science (LICS), 2011 26th Annual IEEE
+  Symposium on}, pages 269--278. IEEE, 2011.
+
+\bibitem{giese2006survey}
+Holger Giese and Stefan Henkler.
+\newblock A survey of approaches for the visual model-driven development of
+  next generation software-intensive systems.
+\newblock {\em Journal of Visual Languages \& Computing}, 17(6):528--550, 2006.
+
+\bibitem{kong2016invariant}
+Hui Kong, Sergiy Bogomolov, Christian Schilling, Yu~Jiang, and Thomas~A
+  Henzinger.
+\newblock Invariant clusters for hybrid systems.
+\newblock {\em arXiv preprint arXiv:1605.01450}, 2016.
+
+\bibitem{liu2011computing}
+Jiang Liu, Naijun Zhan, and Hengjun Zhao.
+\newblock Computing semi-algebraic invariants for polynomial dynamical systems.
+\newblock In {\em Proceedings of the ninth ACM international conference on
+  Embedded software}, pages 97--106. ACM, 2011.
+
+\bibitem{prajna2004safety}
+Stephen Prajna and Ali Jadbabaie.
+\newblock Safety verification of hybrid systems using barrier certificates.
+\newblock In {\em Hybrid Systems: Computation and Control}, pages 477--492.
+  Springer, 2004.
+
+\bibitem{sankaranarayanan2004constructing}
+Sriram Sankaranarayanan, Henny~B Sipma, and Zohar Manna.
+\newblock Constructing invariants for hybrid systems.
+\newblock In {\em Hybrid Systems: Computation and Control}, pages 539--554.
+  Springer, 2004.
+
+\bibitem{socias1992length}
+Guillermo~Moreno Socias.
+\newblock Length of polynomial ascending chains and primitive recursiveness.
+\newblock {\em Mathematica Scandinavica}, 71:181--205, 1992.
+
+\bibitem{tenenbaum1963ordinary}
+Morris Tenenbaum and Harry Pollard.
+\newblock {\em Ordinary differential equations: An elementary textbook for
+  students of mathematics, engineering, and the sciences}, chapter~9, pages
+  562--563.
+\newblock Courier Corporation, 1963.
+
+\bibitem{xia2007discoverer}
+Bican Xia.
+\newblock Discoverer: a tool for solving semi-algebraic systems.
+\newblock {\em ACM Communications in Computer Algebra}, 41(3):102--103, 2007.
+
+\end{thebibliography}
