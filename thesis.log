@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.10.11)  8 AUG 2016 20:56
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.10.11)  9 AUG 2016 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -268,10 +268,6 @@ e/RRM/JK)
 \codeboxwidth=\skip56
 \c@thisindent=\count187
 )
-
-LaTeX Warning: Unused global option(s):
-    [UTF8].
-
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
@@ -349,28 +345,18 @@ Overfull \hbox (22.65765pt too wide) in paragraph at lines 349--350
 n/10 (\OML/cmm/b/it/10 x\OT1/cmr/m/n/10 )$
  []
 
-[9] [10]
-Warning: Indentation ends at level 1 in codebox on page 11.
-
-Overfull \hbox (10.52788pt too wide) in paragraph at lines 477--478
-\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/c
-mr/m/n/10 )\OML/cmm/m/it/10 ; m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/
-n/10 )\OML/cmm/m/it/10 ; [] ; m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/
-n/10 )\OMS/cmsy/m/n/10 i$\OT1/cmr/m/n/10 . When or-der mono-mi-als, we use the 
-\OT1/cmr/m/it/10 degree-lexicographic
+[9]
+Overfull \hbox (6.75539pt too wide) in paragraph at lines 439--440
+[]\OT1/cmr/m/n/10 Recall the con-di-tion of this lemma, we have: $\OMS/cmsy/m/n
+/10 L[]\OML/cmm/m/it/10 ^^^ \OMS/cmsy/m/n/10 2 hL[]\OML/cmm/m/it/10 ^^^; \OMS/c
+msy/m/n/10 L[]\OML/cmm/m/it/10 ^^^; [] ; \OMS/cmsy/m/n/10 L[]\OML/cmm/m/it/10 ^
+^^\OMS/cmsy/m/n/10 i$\OT1/cmr/m/n/10 .
  []
 
-[11] [12] [13] [14] [15]
-Missing character: There is no 和 in font cmti10!
- [16]
+[10] [11] [12] [13] [14] [15] [16]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 750.
-
-
-LaTeX Warning: Reference `def:in, def:ivin' on page 17 undefined on input line 
-766.
-
-[17]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 757.
+ [17]
 Missing character: There is no ； in font cmr10!
 Missing character: There is no ； in font cmr10!
  [18] [19] [20] (./thesis.bbl [21]
@@ -383,16 +369,12 @@ cmr/m/it/10 arXiv preprint
 \tf@thm=\write3
 \openout3 = `thesis.thm'.
 
- [22] (./thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [22] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2808 strings out of 493706
- 36215 string characters out of 6145768
- 94361 words of memory out of 5000000
- 6117 multiletter control sequences out of 15000+600000
+ 2806 strings out of 493706
+ 36190 string characters out of 6145768
+ 94349 words of memory out of 5000000
+ 6115 multiletter control sequences out of 15000+600000
  19604 words of font info for 75 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  35i,16n,28p,862b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
