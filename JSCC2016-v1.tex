@@ -435,7 +435,7 @@ We use Lie derivatives to define \emph{transverse set} :
 \label{def:trans}
 	Given a hybrid system $(\boldsymbol{H}, \boldsymbol{I}, \boldsymbol{f})$, we define transverse set of region $S(p(\boldsymbol{x}) \geq 0)$ as:
 	\begin{equation*}
-		Trans_{f \uparrow p}^{(t)} \doteq \{\boldsymbol{x} \in \mathbb{R}^n | \gamma_{f, p}(\boldsymbol{x}, t) < \infty \wedge \mathcal{L}_{t, f}^{\gamma_{f, p}(\boldsymbol{x}, t)} p(\boldsymbol{x}) < 0 \}
+		\mathrm{Trans}_{f \uparrow p}^{(t)} \doteq \{\boldsymbol{x} \in \mathbb{R}^n | \gamma_{f, p}(\boldsymbol{x}, t) < \infty \wedge \mathcal{L}_{t, f}^{\gamma_{f, p}(\boldsymbol{x}, t)} p(\boldsymbol{x}) < 0 \}
 	\end{equation*}
 \end{definition}
 
@@ -453,7 +453,7 @@ Given a hybrid system $(\boldsymbol{H}, \boldsymbol{I}, \boldsymbol{f})$, $S(\ph
 			\end{equation*}
 		\item Any time, as long as system evolves within its domain, any state in the boundary $S(\phi(\boldsymbol{x}) = 0)$ will not come out of the region $S(\phi(\boldsymbol{x}) \geq 0)$. Which is:
 			\begin{equation*}
-				(\phi(\boldsymbol{x}) = 0) \Rightarrow (\forall t>0: \boldsymbol{x} \in (Trans_{f \uparrow \phi}^{(t)})^c \cup Trans_{f \uparrow H}^{(t)})
+				(\phi(\boldsymbol{x}) = 0) \Rightarrow (\forall t>0: \boldsymbol{x} \in (\mathrm{Trans}_{f \uparrow \phi}^{(t)})^c \cup \mathrm{Trans}_{f \uparrow H}^{(t)})
 			\end{equation*}
 	\end{enumerate}
 \end{theorem}
@@ -461,7 +461,7 @@ Given a hybrid system $(\boldsymbol{H}, \boldsymbol{I}, \boldsymbol{f})$, $S(\ph
 \proof
 First we consider the necessary part. If the first condition is not satisfied, which means $(\boldsymbol{I}(\boldsymbol{x}) \geq 0) \nRightarrow (\phi(x) \geq 0)$, that is to say $\boldsymbol{I} \not\subseteq S(\phi(\boldsymbol{x}) \geq 0)$, which contradicts the first condition of Definition~\ref{def:invariant}.
 
-Now if the second condition is not satisfied, which means: there exists $\boldsymbol{x}_0$ and $t_0 > 0$ such that $\phi(\boldsymbol{x_0}) = 0$ and $\boldsymbol{x}_0 \in Trans_{f \uparrow \phi}^{(t_0)} \cap (Trans_{f \uparrow H}^{(t_0)})^c$. Then by Definition~\ref{def:trans} and Theorem~\ref{thm:lieDeri} we know:
+Now if the second condition is not satisfied, which means: there exists $\boldsymbol{x}_0$ and $t_0 > 0$ such that $\phi(\boldsymbol{x_0}) = 0$ and $\boldsymbol{x}_0 \in \mathrm{Trans}_{f \uparrow \phi}^{(t_0)} \cap (\mathrm{Trans}_{f \uparrow H}^{(t_0)})^c$. Then by Definition~\ref{def:trans} and Theorem~\ref{thm:lieDeri} we know:
 \begin{equation*}
 		\exists \epsilon > 0, \forall t \in (t_0, t_0 + \epsilon), (\boldsymbol{H}(\boldsymbol{x}(t)) \geq 0) \cap (\phi(\boldsymbol{x}(t) < 0))
 \end{equation*}
@@ -477,14 +477,14 @@ which is equivalent to:
 	\end{equation*}
 Now consider $\phi(\boldsymbol{x}(t))$ as a function. We know that $\phi(\boldsymbol{x}(t_0)) = \phi(\boldsymbol{x}_0) \geq 0$ and for some $t_c \in [t_0, t_0 + T_0]$, $\phi(\boldsymbol{x}(t_c)) < 0$. By the continuity of $\boldsymbol{x}$, there exists $t_z \in [t_0, t_c)$ such that $\phi(\boldsymbol{x}(t_z) = 0)$, which means the set $\{ t \in [t_0, t_c)\ |\ \phi(\boldsymbol{x}(t)) = 0 \}$ is not empty.
 
-Take $t_m \doteq \sup\{t \in [t_0, t_c]\ |\ \phi (\boldsymbol{x}(t)) = 0 \}$, By the definition of supremum and continuity of $\phi(\boldsymbol{x}(t))$, $\phi(\boldsymbol{x}(t_m)) = 0$. Denote $\boldsymbol{x}(t_m)$ by $\boldsymbol{x}_m$. As $t_m$ is the rightmost zero point of $\phi(\boldsymbol{x}(t))$, $\phi(\boldsymbol{x}(t_c)) < 0$, we know: $\forall t \in (t_m, t_c),\phi(\boldsymbol{x}(t)) < 0$. Use Corollary~\ref{cor:lieDeri}, we get:  $\gamma_{f, \phi}(\boldsymbol{x}_m, t_m) < \infty$ and $\mathcal{L}_{t_m, f}^{\gamma_{f, \phi}(\boldsymbol{x}_m, t_m)} \phi (\boldsymbol{x}(t_m)) < 0$. Recall Definition~\ref{def:trans}, that is exactly $\boldsymbol{x}_m \in Trans_{f \uparrow \phi}^{(t_m)}$.
+Take $t_m \doteq \sup\{t \in [t_0, t_c]\ |\ \phi (\boldsymbol{x}(t)) = 0 \}$, By the definition of supremum and continuity of $\phi(\boldsymbol{x}(t))$, $\phi(\boldsymbol{x}(t_m)) = 0$. Denote $\boldsymbol{x}(t_m)$ by $\boldsymbol{x}_m$. As $t_m$ is the rightmost zero point of $\phi(\boldsymbol{x}(t))$, $\phi(\boldsymbol{x}(t_c)) < 0$, we know: $\forall t \in (t_m, t_c),\phi(\boldsymbol{x}(t)) < 0$. Use Corollary~\ref{cor:lieDeri}, we get:  $\gamma_{f, \phi}(\boldsymbol{x}_m, t_m) < \infty$ and $\mathcal{L}_{t_m, f}^{\gamma_{f, \phi}(\boldsymbol{x}_m, t_m)} \phi (\boldsymbol{x}(t_m)) < 0$. Recall Definition~\ref{def:trans}, that is exactly $\boldsymbol{x}_m \in \mathrm{Trans}_{f \uparrow \phi}^{(t_m)}$.
 
 Since $\forall t \in [t_0, t_0 + T_0], \boldsymbol{H}(\boldsymbol{x}(t)) \geq 0$, certainly there is: $\forall t \in (t_m, t_c),\boldsymbol{H}(\boldsymbol{x}(t)) \geq 0$. Combine the first and third situation of Corollary~\ref{cor:lieDeri}, we get:
 \begin{enumerate}
 	\item $\gamma_{f, \phi}(\boldsymbol{x}_m, t_m) < \infty$ and $\mathcal{L}_{t_m, f}^{\gamma_{f, \phi}(\boldsymbol{x}_m, t_m)} \phi (\boldsymbol{x}(t_m)) > 0$, or:
 	\item $\gamma_{f, \phi}(\boldsymbol{x}_m, t_m) = \infty$;
 \end{enumerate}
-Either way, we have: $\boldsymbol{x}_m \notin Trans_{f \uparrow H}^{(t_m)}$.
+Either way, we have: $\boldsymbol{x}_m \notin \mathrm{Trans}_{f \uparrow H}^{(t_m)}$.
 
 But $\phi(\boldsymbol{x}_m) = 0$, that contradicts the second condition of this theorem. That concludes the proof for the sufficient part.
 \rulex \newline
@@ -548,7 +548,7 @@ Substitute the value of $t$ into it, we get:
 	\end{equation*}
 where $\{ g'_j \} \in \mathbb{R} [\boldsymbol{x}]$, this equation holds in $\mathbb{R} [\boldsymbol{x}]$.
 
-So we have: for any $t \in \mathbb{R}$, any $l \geq N$, $\mathcal{L}_{t, f}^l \phi  \in \boldsymbol{I}_N^{(t)}$ holds. That leads to our final conclusion.
+So we have: for any $t \in \mathbb{R}$, any $l \geq N$, $\mathcal{L}_{t, f}^l \phi  \in \boldsymbol{I}_N^{(t)}$ holds. That immediately leads us to our final conclusion.
 \rulex \newline
 
 \begin{corollary}
@@ -636,9 +636,9 @@ The algorithm we present in last subsection computes $N$ using Gr\"{o}bner basis
 
 \begin{definition}
 \label{def:monomialIdeal}
-A monomial ideal of $\mathbb{R}[\boldsymbol{x}]$ is an ideal that can be generated by a finite set of monomials. More specifically, $\boldsymbol{I}$ is a monomial ideal of $\mathbb{R}[\boldsymbol{x}]$ if and only if:
+A monomial ideal of $\mathbb{R}[\boldsymbol{x}]$ is an ideal that can be generated by a set of monomials(maybe infinite). More specifically, $\boldsymbol{I}$ is a monomial ideal of $\mathbb{R}[\boldsymbol{x}]$ if and only if:
 \begin{displaymath}
-	\boldsymbol{I} = \langle m_1, m_2, \dots, m_k \rangle
+	\boldsymbol{I} = \langle m_1, m_2, \dots, m_k \dots \rangle
 \end{displaymath}
 where $m_i$ is a monomial in $\mathbb{R}[\boldsymbol{x}]$.
 \end{definition}
@@ -712,7 +712,7 @@ Recall Theorem~\ref{thm:trans}. Obviously, $\boldsymbol{I} \subseteq S(\phi(\bol
 	\end{equation*}
 satisfies.
 
-Now by Definition~\ref{def:trans}, $\forall t \geq 0, \boldsymbol{x} \in (Trans_{f \uparrow \phi}^{(t)})^c \cup Trans_{f \uparrow H}^{(t)}$ if and only if:
+Now by Definition~\ref{def:trans}, $\forall t \geq 0, \boldsymbol{x} \in (\mathrm{Trans}_{f \uparrow \phi}^{(t)})^c \cup \mathrm{Trans}_{f \uparrow H}^{(t)}$ if and only if:
 	\begin{equation*}
 		\forall t \geq 0, \neg(\gamma_{f, \phi}(\boldsymbol{x}, t) < \infty \wedge \mathcal{L}_{t, f}^{\gamma_{f, \phi}(\boldsymbol{x}, t)} < 0) \vee (\gamma_{f, \boldsymbol{H}}(\boldsymbol{x}, t) < \infty \wedge \mathcal{L}_{t, f}^{\gamma_{f, H}(\boldsymbol{x}, t)} <0)
 	\end{equation*}
@@ -731,7 +731,7 @@ and let:
 	\begin{equation*}
 		\pi(\phi, \boldsymbol{f}, \boldsymbol{x}, t) \doteq \bigvee_{0 \leq i \leq N} \pi^{(i)}(\phi, \boldsymbol{f}, \boldsymbol{x}, t)
 	\end{equation*}
-then $\forall t \geq 0, \boldsymbol{x} \in (Trans_{f \uparrow \phi}^{(t)})^c \cup Trans_{f \uparrow H}^{(t)}$ if and only if formula
+then $\forall t \geq 0, \boldsymbol{x} \in (\mathrm{Trans}_{f \uparrow \phi}^{(t)})^c \cup \mathrm{Trans}_{f \uparrow H}^{(t)}$ if and only if formula
 	\begin{equation*}
 		\forall t ((t \geq 0) \rightarrow (\neg \pi(\phi, \boldsymbol{f}, \boldsymbol{x}, t) \vee \pi(\boldsymbol{H}, \boldsymbol{f}, \boldsymbol{x}, t)))
 	\end{equation*}
@@ -756,7 +756,7 @@ The basic structure of our verifying algorithm is as follows:
 \end{enumerate}
 
 \subsection{Generate Invariants of Hybrid System: Simple Case}
-Using the notion of \emph{template}, we can derive an algorithm to generate invariants of hybrid system from the algorithm we presented in last subsection. A template is a parametrized polynomial $p(\boldsymbol{u}, \boldsymbol{x}) \in \mathbb{R}[u_1, u_2, \dots, u_m, x_1, x_2, \dots, x_n]$ where $u_1, u_2, \dots, u_m$ are parameters. Our target is to find an invariant $\phi(\boldsymbol{x})$ such that for some $\boldsymbol{u}_0 \in \mathbb{R}^m$, $p(\boldsymbol{u}_0, \boldsymbol{x}) = \phi(\boldsymbol{x})$, or report error if no such invariant exists.
+Using the notion of \emph{template}, we can derive an algorithm to generate invariants of hybrid system from the algorithm we presented in last subsection. A template is a parametrized polynomial $p(\boldsymbol{u}, \boldsymbol{x}) \in \mathbb{R}[u_1, u_2, \dots, u_m, x_1, x_2, \dots, x_n]$ where $u_1, u_2, \dots, u_m$ are parameters. Our target is to find an invariant $\phi(\boldsymbol{x})$ such that for some $\boldsymbol{u}_0 \in \mathbb{R}^m$, $p(\boldsymbol{u}_0, \boldsymbol{x}) = \phi(\boldsymbol{x})$, or report an error if no such invariant exists.
 
 First we notice that Theorem~\ref{thm:lieIdeal} and related corollaries can be extended to situation when the number of parameters is more than one:
 \begin{lemma}
@@ -769,7 +769,7 @@ Also, the original and alternative algorithm both work for multiple parameters. 
 	\item Use the original or alternative algorithm to compute the upper bound $N$ for $p$ and $\boldsymbol{f}$.
 	\item Construct $\theta(p ,\boldsymbol{H}, \boldsymbol{f},\boldsymbol{u}, \boldsymbol{x}, t)$ as in the proof of Theorem~\ref{thm:translate}.
 	\item Apply quantifier elimination algorithms on formula $\forall \boldsymbol{x} (\theta(p, \boldsymbol{H}, \boldsymbol{f}, \boldsymbol{u}, \boldsymbol{x}, t) \wedge ((\boldsymbol{I}(\boldsymbol{x}) \geq 0) \rightarrow (p(\boldsymbol{u}, \boldsymbol{x}) \geq 0)))$.
-	\item Consider the obtained quantifier-free formula ${\it \Xi}(\boldsymbol{u})$ as a constrain on $\boldsymbol{u}$. If ${\it \Xi}(\boldsymbol{u}) = \textit{FALSE}$ then report error. Otherwise use a constrain solver, such as DISCOVERER\cite{xia2007discoverer}, to find a solution $\boldsymbol{u}_0$.
+	\item Consider the obtained quantifier-free formula ${\it \Xi}(\boldsymbol{u})$ as a constrain on $\boldsymbol{u}$. If ${\it \Xi}(\boldsymbol{u}) = \textit{FALSE}$ then report an error. Otherwise use a constrain solver, such as DISCOVERER\cite{xia2007discoverer}, to find a solution $\boldsymbol{u}_0$.
 	\item Let $\phi(\boldsymbol{x}) = p(\boldsymbol{u}_0, \boldsymbol{x})$, then $\phi(\boldsymbol{x}) \geq 0$ is an invariant.
 \end{enumerate}
 
@@ -1058,7 +1058,7 @@ We also give the generating algorithm for general case:
 	\item Use the original or alternative algorithm to compute the upper bound $N$ for every $p_{ml}$ and $p_{kj}$.
 	\item Construct the formula in Theorem~\ref{thm:semiCond}.
 	\item Apply quantifier elimination algorithms on that formula.
-	\item Consider the obtained quantifier-free formula ${\it \Xi}(\boldsymbol{u})$ as a constrain on $\boldsymbol{u}$. If ${\it \Xi}(\boldsymbol{u}) = \textit{FALSE}$ then report error. Otherwise use a constrain solver, such as DISCOVERER\cite{xia2007discoverer}, to find a solution $\boldsymbol{u}_0$.
+	\item Consider the obtained quantifier-free formula ${\it \Xi}(\boldsymbol{u})$ as a constrain on $\boldsymbol{u}$. If ${\it \Xi}(\boldsymbol{u}) = \textit{FALSE}$ then report an error. Otherwise use a constrain solver, such as DISCOVERER\cite{xia2007discoverer}, to find a solution $\boldsymbol{u}_0$.
 	\item Let ${\it \Psi}_0(\boldsymbol{x}) = {\it \Psi}(\boldsymbol{u}_0, \boldsymbol{x})$, then ${\it \Psi}_0(\boldsymbol{x})$ is an invariant.
 \end{enumerate}
 
