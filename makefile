@@ -6,10 +6,10 @@ all:article
 article:$(ARTICLE).pdf
 
 $(ARTICLE).pdf: $(ARTICLE_SRC)
-	xelatex $(ARTICLE).tex
+	pdflatex $(ARTICLE).tex
 	bibtex  $(ARTICLE).aux
-	xelatex $(ARTICLE).tex
-	xelatex $(ARTICLE).tex
+	pdflatex $(ARTICLE).tex
+	pdflatex $(ARTICLE).tex
 
 clean:
 	rm -f *.aux *.toc *.lon *.lor *.lof *.ilg *.idx *.ind *.out *.log *.exa
